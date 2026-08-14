@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -78,7 +79,8 @@ section{padding:96px 0;position:relative}
              radial-gradient(45% 50% at 12% 12%,rgba(91,63,214,.14),transparent 70%),
              radial-gradient(60% 60% at 55% 100%,rgba(7,150,176,.16),transparent 70%)}
 .herogrid{display:grid;grid-template-columns:1.25fr .85fr;gap:56px;align-items:end}
-.hero h1{font-size:clamp(46px,7.6vw,94px);font-weight:300;line-height:.98;letter-spacing:-.03em}
+.hero h1{font-size:clamp(30px,4.4vw,60px);font-weight:300;line-height:1.05;
+  letter-spacing:-.03em;white-space:nowrap}
 .hero h1 em{font-style:italic;background:linear-gradient(92deg,var(--c-sep),var(--c-cdot));
   -webkit-background-clip:text;background-clip:text;color:transparent}
 .rank{font-family:var(--mono);font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;
@@ -486,7 +488,7 @@ figure.g-item{cursor:zoom-in}
 .handoff .eyebrow{margin-bottom:14px}
 
 /* ---- left spine navigation + tab panels ---- */
-:root{--spine-w:322px}
+:root{--spine-w:274px}
 .spine{position:fixed;left:0;top:0;bottom:0;width:var(--spine-w);z-index:60;
   background:#fff;border-right:1px solid var(--line);display:flex;flex-direction:column;
   overflow-y:auto;overscroll-behavior:contain;box-shadow:1px 0 0 rgba(20,38,31,.03)}
@@ -502,12 +504,12 @@ figure.g-item{cursor:zoom-in}
   text-transform:uppercase;font-style:normal;color:var(--muted);margin-top:10px;line-height:1.6}
 .spinelinks{display:flex;flex-direction:column;gap:7px;padding:14px 15px 30px;flex:1}
 .spinelinks button{display:flex;align-items:center;gap:13px;text-align:left;width:100%;
-  font-family:var(--mono);font-size:19.6px;letter-spacing:.01em;text-transform:uppercase;
+  font-family:var(--mono);font-size:15.6px;letter-spacing:.02em;text-transform:uppercase;
   font-weight:600;color:var(--ink);border:0;cursor:pointer;border-radius:16px;
-  background:#E4F0F7;padding:13px 15px;transition:.2s cubic-bezier(.2,.7,.3,1);
+  background:#E4F0F7;padding:11px 14px;transition:.2s cubic-bezier(.2,.7,.3,1);
   position:relative;line-height:1.15}
 .spinelinks button span{flex:1;min-width:0}
-.spinelinks button i{width:13px;height:13px;border-radius:50%;flex:none;transition:.2s;
+.spinelinks button i{width:11px;height:11px;border-radius:50%;flex:none;transition:.2s;
   background:var(--tc,var(--acc));box-shadow:0 0 0 3px rgba(255,255,255,.75)}
 .spinelinks button:hover{background:#D3E7F2;transform:translateX(3px)}
 .spinelinks button:hover i{transform:scale(1.12)}
@@ -534,7 +536,7 @@ main#stage>footer{margin-top:auto}
   .spinemark em{display:none}
   .spinelinks{flex-direction:row;gap:7px;padding:9px 0;overflow-x:auto;scrollbar-width:none;min-width:0}
   .spinelinks::-webkit-scrollbar{display:none}
-  .spinelinks button{padding:10px 14px;white-space:nowrap;font-size:13.4px;gap:9px;border-radius:12px}
+  .spinelinks button{padding:9px 13px;white-space:nowrap;font-size:12px;gap:8px;border-radius:11px}
   .spinelinks button i{width:10px;height:10px}
   .spinelinks button:hover{transform:none}
   main#stage{margin-left:0}
@@ -580,7 +582,7 @@ main#stage>footer{margin-top:auto}
     <div class="herogrid">
       <div>
         <p class="rank">Professor · Chartered Engineer · Professional Technologist</p>
-        <h1>Zurina<br>Zainal <em>Abidin</em></h1>
+        <h1>Zurina Zainal <em>Abidin</em></h1>
         <p class="role">Department of Chemical and Environmental Engineering, Faculty of Engineering, Universiti Putra Malaysia.</p>
         <p class="feedstock">
           <b>PALM OIL</b> · <b>JATROPHA</b> · <b>AGRI-WASTE</b> · <b>STINGLESS BEE HONEY</b><span class="arw">&rarr;</span><br>
